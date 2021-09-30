@@ -1,0 +1,49 @@
+body{
+  font-family: sans-serif;
+}
+header{
+  display: flex;
+  background-color:#FAD7A0 ;
+  height: 120px;
+}
+.header-logo{
+    width: 15%;
+}
+.header-logo img{
+  height: 100%;
+}
+.header-menu{
+  width: 15%;
+  margin-left: 68%;
+}
+/*Menu*/
+ul, ol {
+  list-style:none;
+}
+.nav li a {
+  background-color:none;
+  color:black;
+  font-size: 17px;
+  width: 100px;
+  height: 30px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#FCF3CF ;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  width:140px;
+}
+
+.nav li:hover  ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+  left: -28%;
+}
